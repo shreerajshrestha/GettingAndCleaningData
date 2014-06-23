@@ -10,7 +10,6 @@ cat("Reading the train data...\n")
 subjectID_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
 activityLabel_train <- read.table("UCI HAR Dataset/train/y_train.txt")
 dataSet_train <- read.table("UCI HAR Dataset/train/X_train.txt")
-cat()
 
 ## bind columns of test data and train data, seperately, into one table
 cat("Binding columns of test data and train data...\n")
