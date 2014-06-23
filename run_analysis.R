@@ -44,6 +44,7 @@ Descriptive_Activity_Label <- mapvalues(arrangedData$Activity_Label,
                                         to = c("Walking","Walking Upstairs",
                                                "Walking Downstairs","Sitting",
                                                "Standing","Laying"))
+arrangedData$Activity_Label <- Descriptive_Activity_Label
 
 # melting the arranged data with mean and SD as measured values
 cat("Melting the data...\n")
