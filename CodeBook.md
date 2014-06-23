@@ -5,7 +5,7 @@ Codebook
 ID Fields
 ----------
 
-`Subject_ID` 
+`Subject_ID`
 Identification number for the subject who performed the activity for each window sample.
 
 *Values range from 1 to 30.*
@@ -27,11 +27,11 @@ Measured variables
 ------------------
 
 `Mean` 
-Average taken across 561 sensor readings sensor readings for a particular `Subject_ID` and `Activity_Label`.
+Average taken across 561 sensor readings sensor readings for a particular Subject_ID and Activity_Label.
 
 
 `SD` 
-Standard Deviation of 561 sensor readings sensor readings for a particular `Subject_ID` and `Activity_Label`.
+Standard Deviation of 561 sensor readings sensor readings for a particular Subject_ID and Activity_Label.
 
 
 
